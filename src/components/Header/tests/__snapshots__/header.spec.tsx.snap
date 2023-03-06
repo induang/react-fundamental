@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render header render correctly 1`] = `
+<div
+  class="MuiBox-root css-1ynyhby"
+>
+  <div
+    class="MuiGrid-root MuiGrid-container css-1bukg3w-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    >
+      <img
+        alt="logo"
+        class="w-24"
+        src="logo.jpg"
+      />
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    >
+      <span
+        data-testid="test"
+        style="font-size: 20px;"
+      >
+        TestName
+      </span>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeMedium MuiButton-outlinedSizeMedium css-93jzzp-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        LOGOUT
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

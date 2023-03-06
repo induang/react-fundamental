@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render courseCard render correctly 1`] = `
+<div
+  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 my-1 p-1 css-1mbunh-MuiPaper-root"
+>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 p-5 css-mhc70k-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-7 css-3vt552-MuiGrid-root"
+    >
+      <h1
+        class="text-4xl font-black"
+      >
+        testTitle
+      </h1>
+      <div
+        class="w-11/12 indent-2"
+      >
+        testDescrip
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-5 flex-col justify-center css-yw6hac-MuiGrid-root"
+    >
+      <div
+        class="w-80 truncate"
+        id="author"
+      >
+        <b>
+          Authors:  
+        </b>
+        testAuthorName_1,testAuthorName_2 
+      </div>
+      <div
+        id="durations"
+      >
+        <b>
+          Duration:  
+        </b>
+        00:12 hours
+      </div>
+      <div
+        id="created"
+      >
+        <b>
+          Created:  
+        </b>
+        10.09.2022
+      </div>
+      <div
+        id="showCourseBtn"
+      >
+        <div
+          class="MuiBox-root css-0"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container mt-5 justify-items-center items-center css-11lq3yg-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            >
+              <a
+                href="/testID"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeMedium MuiButton-outlinedSizeMedium css-wnpvqa-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  Show Courses
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
